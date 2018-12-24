@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Doggyhood</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mini.css/3.0.1/mini-default.min.css" />
+    <%= javascript_pack_tag 'application' %>
+
+    <%= javascript_pack_tag 'dog_directory' %>
+    <%= javascript_pack_tag 'dog_news' %>
+  </head>
+  <body>
+    <header>
+        <a href="#" class="logo">Doggyhood</a>
+        <a href="#" class="button">Home</a>
+        <button>Download</button>
+      </header> 
+    <div class="container">
+      <%= yield %>
+    </div>
+    <footer>
+      <p>Made with <3</p>
+    </footer>
+  </body>
+</html>

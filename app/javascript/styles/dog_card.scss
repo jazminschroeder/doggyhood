@@ -1,0 +1,17 @@
+.dog_card {
+    border-bottom: 1px solid black;
+    display: flex;
+    min-height: 7rem;
+    padding: 0.5em;
+    width: 100%;
+}
+
+.card_photo {
+    height: 100px;
+    width: 100px;
+    background: lightgray;   
+}
+
+.card_details {
+    margin-left: 1rem;
+}

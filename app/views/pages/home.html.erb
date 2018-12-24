@@ -1,0 +1,20 @@
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-8">
+        <div class="row" id="dog-directory" data-featured-dogs="<%= @featured_dogs.to_json %>" >
+          <div class="dog_card" v-for="dog in feature_dogs">
+            <div class="card_photo">
+            </div>
+            <div class="card_details">
+              <h4>{{ dog.name }}</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-1">
+      </div>
+      <div id="dog-news" class="col-sm-3">
+        <h3>{{ headline}}</h3>
+      </div>
+    </div>
+  </div>
