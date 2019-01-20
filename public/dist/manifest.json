@@ -1,0 +1,15 @@
+{
+  "application.js": "/dist/application-95df3d943d05662693c1.js",
+  "application.js.map": "/dist/application-4b37694093e0afe489f8.hot-update.js.map",
+  "entrypoints": {
+    "application": {
+      "js": [
+        "/dist/application-95df3d943d05662693c1.js"
+      ],
+      "js.map": [
+        "/dist/application-95df3d943d05662693c1.js.map",
+        "/dist/application-4b37694093e0afe489f8.hot-update.js.map"
+      ]
+    }
+  }
+}

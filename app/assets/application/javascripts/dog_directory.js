@@ -1,4 +1,4 @@
-import "../styles/dog_card.scss"
+import "../stylesheets/dog_card.scss"
 import Vue from 'vue/dist/vue.esm'
 
 document.addEventListener('DOMContentLoaded', () => {
